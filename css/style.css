@@ -3,13 +3,14 @@
 }
 
 body {
-  background-color: #191d7b;
+  background-color: white;
   font: 10px;
-  font-family: sans-serif;
+  font-family: 'SF Text', 'SF Display', 'SF Mono', sans-serif;
 }
 
 .container {
-  width: 375px;
+  min-width: 375px;
+  max-width: 414px;
   margin: 0 auto;
 }
 
@@ -20,24 +21,23 @@ nav {
   justify-content: space-between;
   padding: 60px 0 60px 0;
   position: relative;
-  width: 375px;
 }
 
 img {
   position: absolute;
   top: 0;
+  width: 100%;
 }
 
 .left {
   display: inline-block;
-  margin-right: 20px;
   position: absolute;
 }
 
 .back {
   color: #f2ece6;
   display: inline-block;
-  left: 43px;
+  left: 45px;
   position: absolute;
 }
 
@@ -46,11 +46,16 @@ img {
   color: #f2ece6;
   display: inline-block;
   position: absolute;
-  right: 80px;
+  width: 100%;
+  text-align: center;
 }
 
 .bus-list {
   background-color: #ffffff;
+}
+
+.bus-list h4 {
+  text-align: right;
 }
 
 .content {
