@@ -1,0 +1,133 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightblue;
+  font: 10px;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 375px;
+  margin: 0 auto;
+}
+
+nav {
+  align-items: center;
+  background-color: #191d7b;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0 60px 0;
+  position: relative;
+  width: 375px;
+}
+
+img {
+  position: absolute;
+  top: 0;
+}
+
+.left {
+  display: inline-block;
+  margin-right: 20px;
+  position: absolute;
+}
+
+.back {
+  color: #f2ece6;
+  display: inline-block;
+  left: 43px;
+  position: absolute;
+}
+
+.title {
+  bottom: 20px;
+  color: #f2ece6;
+  display: inline-block;
+  position: absolute;
+  right: 80px;
+}
+
+.bus-list {
+  background-color: #ffffff;
+}
+
+.content {
+  display: inline-block;
+  width: 90%;
+}
+
+.data {
+  align-items: center;
+  border-bottom: 1px solid black;
+  color: #191d7b;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.list-content {
+  height: 500px;
+  overflow-Y: auto;
+}
+
+.reroute {
+  background-color: #f2ece6;
+}
+
+.out-of-service {
+  background-color: #f3e4d5;
+}
+
+.arrow {
+  display: flex;
+  font-size: 0.6em;
+  font-weight: normal;
+  justify-content: center;
+  padding-left: 30px;
+  width: 10%;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+h2 {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-bottom: 0;
+  padding-right: 6px;
+  text-align: right;
+}
+
+h3 {
+  font-size: 1em;
+  width: 160px;
+  height: 16px;
+}
+
+h4 {
+  font-size: 0.8em;
+  margin-top: 0;
+  padding-left: 120px;
+  padding-right: 6px;
+}
+
+ol, ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+h1, h2, h3, h4 {
+  display: inline-block;
+  font-family: 'SF Text', 'SF Display', 'SF Mono', sans-serif;
+  width: 49%;
+}
+
+.data:hover {
+  background-color: lightgrey;
+}
