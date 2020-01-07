@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Busy Bus</title>
-  <link rel="stylesheet" type="text/js" href="https://gist.github.com/AndrewBarba/2c0f6612ceef30f5f55d.js">
-  <link rel="stylesheet" href="/css/reset.css">
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://sf.abarba.me/font.css">
   <script src="https://use.fontawesome.com/37471687aa.js"></script>
 </head>
 
@@ -34,14 +34,14 @@
     </figure>
 
     <ol class="list-content">
-
       <li class="bus-list">
-        <ul class="data">
+        <div class="eastbound-class">Eastbound</div>
+        <ul class="data eastbound">
           <li class="content">
             <h1>60</h1>
-            <h2>"2</h2>
+            <h2>"2, 22, 42</h2>
             <h3>Randolph/Harbor Dr</h3>
-            <h4>Min</h4>
+            <h4>Minutes</h4>
           </li>
           <li class="arrow">
             <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
@@ -50,12 +50,12 @@
       </li>
 
       <li class="bus-list">
-        <ul class="data">
+        <ul class="data eastbound">
           <li class="content">
             <h1>124</h1>
-            <h2>"3</h2>
+            <h2>"3, 13, 23</h2>
             <h3>Navy Pier</h3>
-            <h4>Min</h4>
+            <h4>Minutes</h4>
           </li>
           <li class="arrow">
             <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
@@ -64,12 +64,13 @@
       </li>
 
       <li class="bus-list">
-        <ul class="data">
+        <div class="northbound-class">Northbound</div>
+        <ul class="data northbound">
           <li class="content">
             <h1>151</h1>
-            <h2>"3</h2>
+            <h2>"3, 19, 35</h2>
             <h3>Devon/Clark</h3>
-            <h4>Min</h4>
+            <h4>Minutes</h4>
           </li>
           <li class="arrow">
             <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
@@ -78,12 +79,13 @@
       </li>
 
       <li class="bus-list">
-        <ul class="data">
+        <div class="southbound-class">Southbound</div>
+        <ul class="data southbound">
           <li class="content">
             <h1>J14</h1>
-            <h2>"5</h2>
+            <h2>"5, 20, 35</h2>
             <h3>103rd/Stony Island</h3>
-            <h4>Min</h4>
+            <h4>Minutes</h4>
           </li>
           <li class="arrow">
             <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
@@ -92,6 +94,22 @@
       </li>
 
       <li class="bus-list">
+        <ul class="data southbound">
+          <li class="content">
+            <h1>124</h1>
+            <h2>"7, 17, 27</h2>
+            <h3>Navy Pier</h3>
+            <h4>Minutes</h4>
+          </li>
+          <li class="arrow">
+            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+          </li>
+        </ul>
+      </li>
+
+
+      <li class="bus-list">
+        <div class="reroute-class">Reroute</div>
         <ul class="data reroute">
           <li class="content">
             <h1>6x</h1>
@@ -108,10 +126,11 @@
 
 
       <li class="bus-list">
+        <div class="outofservice-class">Out of Service</div>
         <ul class="data out-of-service">
           <li class="content">
             <h1>4</h1>
-            <h2>12:10</h2>
+            <h2>12:10<span>AM</span></h2>
             <h3>Cottage Grove</h3>
             <h4>AM</h4>
           </li>
@@ -125,8 +144,23 @@
         <ul class="data out-of-service">
           <li class="content">
             <h1>20</h1>
-            <h2>12:10</h2>
+            <h2>12:10<span>AM</span></h2>
             <h3>Madison</h3>
+            <h4>AM</h4>
+          </li>
+          <li class="arrow">
+            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+          </li>
+        </ul>
+      </li>
+
+
+      <li class="bus-list">
+        <ul class="data out-of-service">
+          <li class="content">
+            <h1>157</h1>
+            <h2>6:00<span>AM</span></h2>
+            <h3>Streetville/Taylor</h3>
             <h4>AM</h4>
           </li>
           <li class="arrow">

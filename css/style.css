@@ -5,7 +5,7 @@
 body {
   background-color: white;
   font: 10px;
-  font-family: 'SF Text', 'SF Display', 'SF Mono', sans-serif;
+  font-family: 'SF Text', sans-serif;
 }
 
 .container {
@@ -55,7 +55,7 @@ img {
 }
 
 .bus-list h4 {
-  text-align: right;
+  text-align: center;
 }
 
 .content {
@@ -77,12 +77,84 @@ img {
   overflow-Y: auto;
 }
 
-.reroute {
+.eastbound {
+  background-color: white;
+}
+
+.eastbound-class {
+  background-color: #191d7b;
+  color: #f2ece6;
+  height: 8%;
+  padding-top: 13px;
+  padding-left: 10px;
+}
+
+.northbound {
   background-color: #f2ece6;
 }
 
-.out-of-service {
+.northbound-class {
+  background-color: #191d7b;
+  color: #f2ece6;
+  height: 8%;
+  padding-top: 13px;
+  padding-left: 10px;
+}
+
+.southbound {
   background-color: #f3e4d5;
+}
+
+.southbound-class {
+  background-color: #191d7b;
+  color: #f2ece6;
+  height: 8%;
+  padding-top: 13px;
+  padding-left: 10px;
+}
+
+.reroute {
+  background-color: #f4efd3;
+}
+
+.reroute-class {
+  background-color: #191d7b;
+  color: #f2ece6;
+  height: 8%;
+  padding-top: 13px;
+  padding-left: 10px;
+}
+
+.reroute h2 {
+  visibility: hidden;
+}
+
+.reroute i {
+  visibility: hidden;
+}
+
+.out-of-service {
+  background-color: #eaeaea;
+}
+
+.out-of-service span {
+  font-weight: 400;
+}
+
+.out-of-service h4 {
+  display: none;
+}
+
+.out-of-service i {
+  visibility: hidden;
+}
+
+.outofservice-class {
+  background-color: #191d7b;
+  color: #f2ece6;
+  height: 8%;
+  padding-top: 13px;
+  padding-left: 10px;
 }
 
 .arrow {
@@ -105,7 +177,7 @@ h2 {
   font-size: 1.4em;
   font-weight: bold;
   margin-bottom: 0;
-  padding-right: 6px;
+  padding-right: 0;
   text-align: right;
 }
 
@@ -118,8 +190,7 @@ h3 {
 h4 {
   font-size: 0.8em;
   margin-top: 0;
-  padding-left: 120px;
-  padding-right: 6px;
+  padding-left: 65px;
 }
 
 ol, ul {
@@ -127,9 +198,13 @@ ol, ul {
   padding: 0;
 }
 
+h1, h2 {
+  font-family: 'SF Display';
+  font-weight: 900;
+}
+
 h1, h2, h3, h4 {
   display: inline-block;
-  font-family: 'SF Text', 'SF Display', 'SF Mono', sans-serif;
   width: 49%;
 }
 
