@@ -52,6 +52,8 @@ img {
 
 .bus-list {
   background-color: #ffffff;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
 }
 
 .bus-list h4 {
@@ -77,50 +79,41 @@ img {
   overflow-Y: auto;
 }
 
-.eastbound {
-  background-color: white;
-}
-
 .eastbound-class {
-  background-color: #191d7b;
-  color: #f2ece6;
-  height: 8%;
+  border: 1px solid #191d7b;
+  background-color: #f8f1f1;
+  color: #191d7b;
+  height: 7%;
   padding-top: 13px;
   padding-left: 10px;
-}
-
-.northbound {
-  background-color: #f2ece6;
 }
 
 .northbound-class {
-  background-color: #191d7b;
-  color: #f2ece6;
-  height: 8%;
+  border: 1px solid #191d7b;
+  border-top: 0;
+  background-color: #f8f1f1;
+  color: #191d7b;
+  height: 7%;
   padding-top: 13px;
   padding-left: 10px;
-}
-
-.southbound {
-  background-color: #f3e4d5;
 }
 
 .southbound-class {
-  background-color: #191d7b;
-  color: #f2ece6;
-  height: 8%;
+  border: 1px solid #191d7b;
+  border-top: 0;
+  background-color: #f8f1f1;
+  color: #191d7b;
+  height: 7%;
   padding-top: 13px;
   padding-left: 10px;
 }
 
-.reroute {
-  background-color: #f4efd3;
-}
-
 .reroute-class {
-  background-color: #191d7b;
-  color: #f2ece6;
-  height: 8%;
+  border: 1px solid #191d7b;
+  border-top: 0;
+  background-color: #f8f1f1;
+  color: #191d7b;
+  height: 7%;
   padding-top: 13px;
   padding-left: 10px;
 }
@@ -150,9 +143,11 @@ img {
 }
 
 .outofservice-class {
-  background-color: #191d7b;
-  color: #f2ece6;
-  height: 8%;
+  border: 1px solid #191d7b;
+  border-top: 0;
+  background-color: #f8f1f1;
+  color: #191d7b;
+  height: 7%;
   padding-top: 13px;
   padding-left: 10px;
 }
