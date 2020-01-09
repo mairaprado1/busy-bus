@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: #f6f4e6;
   font: 10px;
   font-family: 'SF Text', sans-serif;
 }
@@ -19,7 +19,7 @@ nav {
   background-color: #191d7b;
   display: flex;
   justify-content: space-between;
-  padding: 60px 0 60px 0;
+  padding: 40px 0 40px 0;
   position: relative;
 }
 
@@ -45,15 +45,12 @@ img {
   bottom: 20px;
   color: #f2ece6;
   display: inline-block;
-  position: absolute;
   width: 100%;
   text-align: center;
 }
 
 .bus-list {
   background-color: #ffffff;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
 }
 
 .bus-list h4 {
@@ -79,40 +76,54 @@ img {
   overflow-Y: auto;
 }
 
+.eastbound-1 {
+  background-color: white;
+}
+
 .eastbound-class {
-  border: 1px solid #191d7b;
-  background-color: #f8f1f1;
-  color: #191d7b;
+  background-color: #191d7b;
+  color: #f8f1f1;
   height: 7%;
   padding-top: 13px;
   padding-left: 10px;
+}
+
+.northbound-2 {
+  background-color: #f2ece6;
 }
 
 .northbound-class {
-  border: 1px solid #191d7b;
   border-top: 0;
-  background-color: #f8f1f1;
-  color: #191d7b;
+  background-color: #191d7b;
+  color: #f8f1f1;
   height: 7%;
   padding-top: 13px;
   padding-left: 10px;
+}
+
+.southbound-3 {
+  background-color: #f3e4d5;
+}
+
+.southbound-2 {
+  background-color: #f2ece6;
 }
 
 .southbound-class {
-  border: 1px solid #191d7b;
-  border-top: 0;
-  background-color: #f8f1f1;
-  color: #191d7b;
+  background-color: #191d7b;
+  color: #f8f1f1;
   height: 7%;
   padding-top: 13px;
   padding-left: 10px;
 }
 
+.reroute {
+  background-color: #eb4d55;
+}
+
 .reroute-class {
-  border: 1px solid #191d7b;
-  border-top: 0;
-  background-color: #f8f1f1;
-  color: #191d7b;
+  background-color: #191d7b;
+  color: #f8f1f1;
   height: 7%;
   padding-top: 13px;
   padding-left: 10px;
@@ -124,10 +135,6 @@ img {
 
 .reroute i {
   visibility: hidden;
-}
-
-.out-of-service {
-  background-color: #eaeaea;
 }
 
 .out-of-service span {
@@ -142,11 +149,13 @@ img {
   visibility: hidden;
 }
 
+.out-of-service {
+  color: #b6b6b6;
+}
+
 .outofservice-class {
-  border: 1px solid #191d7b;
-  border-top: 0;
-  background-color: #f8f1f1;
-  color: #191d7b;
+  background-color: #191d7b;
+  color: #f8f1f1;
   height: 7%;
   padding-top: 13px;
   padding-left: 10px;
