@@ -19,7 +19,7 @@ nav {
   background-color: #191d7b;
   display: flex;
   justify-content: space-between;
-  padding: 40px 0 40px 0;
+  padding: 60px 0 40px 0;
   position: relative;
 }
 
@@ -49,10 +49,6 @@ img {
   text-align: center;
 }
 
-.bus-list {
-  background-color: #ffffff;
-}
-
 .bus-list h4 {
   text-align: center;
 }
@@ -64,7 +60,7 @@ img {
 
 .data {
   align-items: center;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #e5e5e5;
   color: #191d7b;
   display: flex;
   justify-content: space-between;
@@ -119,10 +115,11 @@ img {
 
 .reroute {
   background-color: #eb4d55;
+  color: #f8f1f1;
 }
 
 .reroute-class {
-  background-color: #191d7b;
+  background-color: #eb4d55;
   color: #f8f1f1;
   height: 7%;
   padding-top: 13px;
@@ -150,12 +147,13 @@ img {
 }
 
 .out-of-service {
-  color: #b6b6b6;
+  background-color: #bdbdbd;
+  color: #4c4c4c;
 }
 
 .outofservice-class {
-  background-color: #191d7b;
-  color: #f8f1f1;
+  background-color: #bdbdbd;
+  color: #4c4c4c;
   height: 7%;
   padding-top: 13px;
   padding-left: 10px;
@@ -175,6 +173,7 @@ h1 {
   font-weight: bold;
   margin-bottom: 0;
   text-align: left;
+  line-height: 1.35;
 }
 
 h2 {
@@ -210,8 +209,4 @@ h1, h2 {
 h1, h2, h3, h4 {
   display: inline-block;
   width: 49%;
-}
-
-.data:hover {
-  background-color: lightgrey;
 }
