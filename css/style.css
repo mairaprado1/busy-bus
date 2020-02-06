@@ -35,7 +35,7 @@ img {
 }
 
 .back {
-  color: #f2ece6;
+  color: #ffffff;
   display: inline-block;
   left: 45px;
   position: absolute;
@@ -43,7 +43,7 @@ img {
 
 .title {
   bottom: 20px;
-  color: #f2ece6;
+  color: #ffffff;
   display: inline-block;
   width: 100%;
   text-align: center;
@@ -120,7 +120,7 @@ img {
 
 .reroute-class {
   background-color: #eb4d55;
-  color: #f8f1f1;
+  color: #ffffff;
   height: 7%;
   padding-top: 13px;
   padding-left: 10px;
@@ -191,9 +191,9 @@ h3 {
 }
 
 h4 {
-  font-size: 0.8em;
+  font-size: 1em;
   margin-top: 0;
-  padding-left: 65px;
+  padding-left: 130px;
 }
 
 ol, ul {
@@ -209,4 +209,9 @@ h1, h2 {
 h1, h2, h3, h4 {
   display: inline-block;
   width: 49%;
+}
+
+h2 span {
+  font-weight: 500;
+  font-size: 0.6em;
 }
