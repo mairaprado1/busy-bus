@@ -23,7 +23,7 @@ nav {
   position: relative;
 }
 
-img {
+.imgstatusbar {
   position: absolute;
   top: 0;
   width: 100%;
@@ -214,4 +214,10 @@ h1, h2, h3, h4 {
 h2 span {
   font-weight: 500;
   font-size: 0.6em;
+}
+
+.liveicon {
+  width: 14px;
+  padding-bottom: 12px;
+  margin-left: 5px;
 }
